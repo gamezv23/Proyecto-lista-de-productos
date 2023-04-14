@@ -1,0 +1,61 @@
+.container{
+
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.formulario{
+  width: 60%;
+  padding: 3rem;
+  background-color: #f3f5f2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nombre{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.codigo{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.descripcion{
+
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  min-width: 100%;
+}
+
+textarea{
+  min-width: 100%;
+  min-height: 170px;
+}
+
+.botones{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+button{
+  margin-right: 1rem;
+  padding: 0.5rem;
+background-color: blue;
+border: none;
+border-radius: 5px;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}

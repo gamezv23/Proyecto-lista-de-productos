@@ -1,0 +1,33 @@
+h1 {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+.pregunta{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+span {
+
+  font-size: 19px;
+
+  color: #ff0000ab;
+  padding-left: 5rem;
+}
+
+.botones {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.botones button{
+
+  margin-right: 1rem;
+  padding: 0.5rem;
+background-color: #3e6ff8;
+border: none;
+border-radius: 5px;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}

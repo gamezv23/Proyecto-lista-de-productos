@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="formulario">
+    <div>
+      <h1>Editar producto</h1>
+    </div>
+    <div class="nombre">Nombre: <input type="text" [(ngModel)]="art.name"></div>
+    <div class="codigo">Codigo: <input type="text" [(ngModel)]="art.code"></div>
+    <div class="descripcion">
+      Descripcion:
+      <mat-form-field appearance="fill">
+        <mat-label></mat-label>
+        <textarea [(ngModel)]="art.description" matInput>{{art.description}}</textarea>
+      </mat-form-field>
+    </div>
+
+    <div class="botones">
+      <div> <button (click)="modificar()" >Guardar</button></div>
+    <div> <button (click)="closeModal()" >Cancelar</button></div>
+    </div>
+
+
+
+  </div>
+
+</div>

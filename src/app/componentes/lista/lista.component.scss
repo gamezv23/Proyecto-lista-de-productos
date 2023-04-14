@@ -1,0 +1,72 @@
+table {
+  width: 80%;
+}
+
+td {
+  width: 20%;
+  border-right: solid 1px #e0e0e0;
+}
+th {
+  border-right: solid 1px #e0e0e0;
+  padding-left: 24px;
+}
+
+.container {
+  background-color: #9bc984ef;
+}
+
+.tabla {
+  display: flex;
+
+  padding-top: 3rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boton {
+  display: flex;
+  align-self: end;
+  padding-right: 10rem;
+  padding-bottom: 1rem;
+}
+
+.boton button {
+  border: none;
+  padding: 1rem;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ver {
+  background-color: #57cef0;
+  color: black;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.editar {
+  background-color: #3e6ff8;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.eliminar {
+  background-color: #d8354a;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+th.mat-header-cell,
+td.mat-cell,
+td.mat-footer-cell {
+  padding: 0px 11px;
+}

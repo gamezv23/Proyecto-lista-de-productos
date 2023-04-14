@@ -1,0 +1,17 @@
+<div class="container">
+
+  <div class="titulo">
+  <h1>Descripcion del producto</h1>
+
+  </div>
+
+  <ul>
+    <li> <span>Numero de producto:</span>  {{ message?.id }}</li>
+    <li> <span>Nombre:</span>  {{ message?.name }}</li>
+    <li> <span>Codigo:</span>  {{ message?.code }}</li>
+    <li> <span>Descripcion del producto:</span>  {{ message?.description }}</li>
+  </ul>
+  <div class="boton">
+    <button class="cerrar" mat-button (click)="closeModal()">Cerrar</button>
+  </div>
+</div>
