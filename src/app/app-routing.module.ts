@@ -5,8 +5,8 @@ import { ListaComponent } from './componentes/lista/lista.component';
 
 const routes: Routes = [
 {path:'lista',component:ListaComponent},
-{path:'agregar-producto',component:CreateProductComponent}
-
+{path:'agregar-producto',component:CreateProductComponent},
+{ path: '**', redirectTo: 'lista'},
 ];
 
 @NgModule({

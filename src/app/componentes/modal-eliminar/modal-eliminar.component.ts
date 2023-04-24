@@ -12,8 +12,6 @@ import { ListaService } from 'src/app/lista.service';
   styleUrls: ['./modal-eliminar.component.scss'],
 })
 export class ModalEliminarComponent implements OnInit {
-
-
   constructor(
     public dialog: MatDialog,
     private servilista: ListaService,
@@ -21,10 +19,7 @@ export class ModalEliminarComponent implements OnInit {
     @Inject(MAT_DIALOG_DATA) public message: any
   ) {}
 
-  ngOnInit(): void {
-
-
-  }
+  ngOnInit(): void {}
   closeModal() {
     this.dialog.closeAll();
   }

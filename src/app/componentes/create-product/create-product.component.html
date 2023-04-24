@@ -3,23 +3,29 @@
     <div>
       <h1>Agregar nuevo producto</h1>
     </div>
-    <div class="nombre">Nombre: <input [(ngModel)]="name" type="text"/></div>
-    <div class="codigo">Codigo: <input  [(ngModel)]="code" type="text" /></div>
+
+    <mat-form-field>
+      <span>Nombre</span>
+      <input matInput [(ngModel)]="name" type="text" required #nombre="ngModel"/>
+      <mat-error *ngIf="nombre.invalid && (nombre.dirty || nombre.touched)"  >*Campo requerido</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+      <span>Codigo</span>
+      <input matInput [(ngModel)]="code" type="text" required #codigo="ngModel" />
+      <mat-error *ngIf="codigo.invalid && (codigo.dirty || codigo.touched)" >*Campo requerido</mat-error>
+    </mat-form-field>
+
     <div class="descripcion">
       Descripcion:
-      <mat-form-field  appearance="fill">
-        <mat-label>Textarea</mat-label>
+      <mat-form-field appearance="fill">
         <textarea [(ngModel)]="description" matInput></textarea>
       </mat-form-field>
     </div>
 
     <div class="botones">
-      <div> <button (click)="save()" > Guardar</button></div>
-    <div> <button routerLink="/lista/">Cancelar</button></div>
+      <div><button (click)="save()">Guardar</button></div>
+      <div><button routerLink="/lista/">Cancelar</button></div>
     </div>
-
-
-
   </div>
-
 </div>

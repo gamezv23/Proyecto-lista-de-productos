@@ -2,13 +2,12 @@ h1 {
   padding-top: 2rem;
   padding-left: 2rem;
 }
-.pregunta{
+.pregunta {
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
 
 span {
-
   font-size: 19px;
 
   color: #ff0000ab;
@@ -20,14 +19,13 @@ span {
   display: flex;
   justify-content: center;
 }
-.botones button{
-
+.botones button {
   margin-right: 1rem;
   padding: 0.5rem;
-background-color: #3e6ff8;
-border: none;
-border-radius: 5px;
-color: white;
-font-weight: bold;
-cursor: pointer;
+  background-color: #3e6ff8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }

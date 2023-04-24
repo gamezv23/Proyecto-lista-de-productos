@@ -25,8 +25,6 @@ export class ListaComponent implements OnInit {
     this.fulldata();
   }
 
-
-
   openDialog(element: any): void {
     this.dialog.open(ModalVerComponent, {
       width: '500px',

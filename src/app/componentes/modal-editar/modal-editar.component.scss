@@ -1,11 +1,10 @@
-.container{
-
+.container {
   display: flex;
   justify-content: center;
   padding-top: 3rem;
 }
 
-.formulario{
+.formulario {
   width: 60%;
   padding: 3rem;
   background-color: #f3f5f2;
@@ -14,48 +13,43 @@
   flex-direction: column;
 }
 
-.nombre{
-
+.nombre {
   display: flex;
   flex-direction: column;
 }
 
-.codigo{
-
+.codigo {
   display: flex;
   flex-direction: column;
 }
 
-.descripcion{
-
+.descripcion {
   display: flex;
   flex-direction: column;
 }
 
-input{
+input {
   min-width: 100%;
 }
 
-textarea{
+textarea {
   min-width: 100%;
   min-height: 170px;
 }
 
-.botones{
-
+.botones {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
-button{
+button {
   margin-right: 1rem;
   padding: 0.5rem;
-background-color: #3e6ff8;
-border: none;
-border-radius: 5px;
-color: white;
-font-weight: bold;
-cursor: pointer;
+  background-color: #3e6ff8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }

@@ -11,7 +11,6 @@ import {
   styleUrls: ['./modal-ver.component.scss'],
 })
 export class ModalVerComponent implements OnInit {
-
   constructor(
     public dialog: MatDialog,
     public dialogRef: MatDialogRef<ModalVerComponent>,
