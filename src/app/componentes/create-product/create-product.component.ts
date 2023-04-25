@@ -9,8 +9,8 @@ import { ListaService } from 'src/app/lista.service';
   styleUrls: ['./create-product.component.scss'],
 })
 export class CreateProductComponent implements OnInit {
-  name: any;
-  code: any;
+  name: any='';
+  code: any='';
   description: any;
   producto: any = {};
 
@@ -18,7 +18,9 @@ export class CreateProductComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  save() {
+  save(nombre:any, codigo:any) {
+    nombre.control.markAsTouched();
+    codigo.control.markAsTouched();
     if (this.name != '' && this.code != '') {
       this.producto = {
         name: this.name,
